@@ -1,0 +1,134 @@
+/* General Reset */
+#mode {
+    position: absolute;
+    top: 10px;
+    right: 10px; /* Move to extreme right */
+    background: linear-gradient(90deg, #000000, #4d00f3, #000000);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 1s ease, transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+}
+
+#mode:hover {
+    background: linear-gradient(90deg, #0b100e, #424338, #f9f9f9);
+    transform: scale(1.1);
+}
+
+#mode:active {
+    background: linear-gradient(90deg, #010202, #e8e5de, #413838);
+    transform: scale(0.95);
+}
+
+.dark {
+    background-color: black;
+}
+
+.light {
+    background-color: whitesmoke;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative; /* Add relative positioning for the body */
+}
+
+/* Form container */
+.form-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Form title */
+.form-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Form groups (inputs and labels) */
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+/* Labels */
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button styling */
+.form-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    #mode {
+        top: 5px;
+        right: 5px;
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .form-container {
+        padding: 1.5rem;
+        max-width: 300px;
+    }
+
+    .form-title {
+        font-size: 1.5rem;
+    }
+
+    .form-button {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+}
