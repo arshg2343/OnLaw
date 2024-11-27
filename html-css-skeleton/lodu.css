@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.hero-section {
+    background: linear-gradient(to right, #1c1c3c, #29366f);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.navbar .btn {
+    background: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.hero-content {
+    margin-top: 20px;
+}
+
+/* Adjusted spacing below the hero-content paragraph */
+.hero-content p {
+    margin-bottom: 20px; /* Added margin for spacing */
+}
+
+.hero-content .cta-btn {
+    background: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+
+    /* Added spacing between the button and the paragraph */
+    margin-top: 10px; /* Highlighted Change */
+}
+
+
+.services, .about, .contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services h2, .about h2, .contact h2 {
+    margin-bottom: 20px;
+    color: #1c1c3c;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #1c1c3c;
+    margin-bottom: 10px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background: #1c1c3c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #1c1c3c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
