@@ -26,6 +26,7 @@ body {
 .navbar .logo {
 	font-size: 1.5em;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 .navbar .nav-links {
@@ -138,4 +139,69 @@ footer {
 	text-align: center;
 	padding: 10px 0;
 	margin-top: 20px;
+}
+
+.logo-container {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.logo-image {
+	width: 40px; /* Adjust size as needed */
+	height: 40px; /* Keep proportions consistent */
+	margin-right: 10px; /* Space between logo and text */
+}
+
+.logo-text {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #fffcfc; /* Match your theme's color */
+	text-decoration: none;
+}
+
+.navbar-const {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.navbar-const .logo {
+	font-size: 1.5em;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.navbar-const .nav-links {
+	list-style: none;
+	display: flex;
+}
+
+.navbar-const .nav-links li {
+	margin: 0 15px;
+}
+
+.navbar-const .nav-links a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.navbar-const .btn {
+	background: #ff6b6b;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	text-decoration: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.logo-text-const {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: black; /* Match your theme's color */
+	text-decoration: none;
 }

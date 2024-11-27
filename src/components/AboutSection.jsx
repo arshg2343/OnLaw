@@ -1,7 +1,7 @@
 import React from "react";
 import "../lodu.css";
 
-const AboutLP = () => {
+const AboutSection = () => {
 	return (
 		<section id="about" className="about">
 			<h2>About Us</h2>
@@ -15,4 +15,4 @@ const AboutLP = () => {
 	);
 };
 
-export default AboutLP;
+export default AboutSection;

@@ -1,5 +1,6 @@
 import React from "react";
 import "../lodu.css";
+import logoImage from "../assets/logo2.png"; // Update the path to your logo file
 import { useNavigate } from "react-router-dom";
 
 const HeroLP = () => {
@@ -7,13 +8,20 @@ const HeroLP = () => {
 	return (
 		<header className="hero-section">
 			<nav className="navbar">
-				<div className="logo">LawOnline</div>
+				<div className="logo-container" onClick={() => navigate("/")}>
+					<img
+						src={logoImage}
+						alt="LawOnline Logo"
+						className="logo-image"
+					/>
+					<span className="logo-text">LawOnline</span>
+				</div>
 				<ul className="nav-links">
 					<li>
 						<a href="#services">Services</a>
 					</li>
 					<li>
-						<a href="#about">About Us</a>
+						<a onClick={() => navigate("/aboutus")}>About Us</a>
 					</li>
 					<li>
 						<a onClick={() => navigate("/contact")}>Contact</a>

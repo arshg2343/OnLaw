@@ -1,5 +1,6 @@
 import LandingPage from "./pages/LandingPage";
 import ContactUs from "./pages/ContactUs";
+import AboutUs from "./pages/AboutUs";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
 			<Routes>
 				<Route path="/" element={<LandingPage />} />
 				<Route path="/contact" element={<ContactUs />} />
+				<Route path="/aboutus" element={<AboutUs />} />
 			</Routes>
 		</Router>
 	);
