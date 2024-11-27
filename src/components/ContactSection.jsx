@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { db } from "../firebase-config"; // Import Firestore
+import { db } from "../../firebase-config"; // Import Firestore
 import { collection, addDoc } from "firebase/firestore"; // Firestore functions
 
 const ContactLP = () => {
