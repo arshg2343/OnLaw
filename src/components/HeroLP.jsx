@@ -14,7 +14,7 @@ const HeroLP = () => {
 						alt="LawOnline Logo"
 						className="logo-image"
 					/>
-					<span className="logo-text">LawOnline</span>
+					<span className="logo-text">Verdict.ai</span>
 				</div>
 				<ul className="nav-links">
 					<li>

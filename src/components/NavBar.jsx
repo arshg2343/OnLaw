@@ -13,7 +13,7 @@ const NavBar = () => {
 					alt="LawOnline Logo"
 					className="logo-image"
 				/>
-				<span className="logo-text-const">LawOnline</span>
+				<span className="logo-text-const">Verdict.ai</span>
 			</div>
 			<ul className="nav-links">
 				<li>
